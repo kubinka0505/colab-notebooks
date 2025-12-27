@@ -1,0 +1,74 @@
+﻿name,prompt,negative_prompt
+None,,,
+DEFAULT: Positive,"(masterpiece: 2.0), YOUR_PROMPT_HERE,
+best quality, highest quality, high quality,
+ultra-detailed, highly detailed,
+hyperrealistic, realistic",
+DEFAULT: Negative,,"text, extra digits, fewer digits,
+(bad proportions: 2.0), (bad anatomy: 2.0),
+(deformed face: 2.0), (poorly drawn face: 1.0),
+(bad hands: 2.0), (bad fingers: 2.5), (missing finger: 1.0), (mutated hands and fingers: 2.0),
+cropped, blurry, low resolution, lowres,
+normal quality, low quality, worst quality,
+jpeg, (jpeg artifacts: 2.0), (jpg artifacts: 2.0)"
+GENERAL: Art,"portrait, illustration, (cinematic: 1.5),",
+ARTIST: Claude Monet,"(Claude Monet painting: 2.0), (painting: 1.5),
+(impressionism: 1.0), (modernism: 1.0)
+
+a bit of abstraction,
+
+(Barbizon school art: 0.75),
+(Alfred Sisley: 0.75),
+(Auguste Renoir: 0.75),
+(Jean Frederic Bazille: 0.75),
+(Johan Barthold Jongkind: 0.75),
+(William Turner: 0.75),
+(John Constable: 0.75)",
+ARTIST: Gustav Klimt,"(Gustav Klimt painting: 2.0), (painting: 1.5),
+(modernism: 0.25), (symbolism: 0.25), (modernism: 1.0),
+(Japanese art: 0.25), (Chinese art: 0.25), (Ancient Egyptian art: 0.25), (Mycenaean art: 0.25),
+
+(Egon Schiele art: 0.75),
+(Courtney Adams art: 0.75),
+(Fletcher Sibthorp art: 0.75),
+(Kimon Loghi art: 0.75),
+(Kevin Wasden art: 0.75),
+(Nagura Hiroo art: 0.75)",
+ARTIST: Leonardo Da Vinci,"(Leonardo da Vinci painting: 2.0), (painting: 1.5),
+(renessaince art: 1.0), italian art),
+
+(sharp contours: 1.0), (sfumato: 1.0), (chiaroscuro: 1.0), (aria restretta: 1.0), (lumo libero: 1.0), (3d perspective: 1.0), 
+(flemish painters: 0.25), (venetian painters: 0.5),
+
+(Michelangelo art: 0.5), (Rafael Santi art: 0.25)",
+ARTIST: Michelangelo,"(Michelangelo frescoes: 2.0),
+(renessaince art: 1.0), (italian art: 0.5), (biblical art: 0.75), (symbolism: 0.25),
+
+(Leonardo da Vinci art: 0.5), (Rafael Santi art: 0.25)",
+ARTIST: Pablo Picasso,"(Pablo Picasso painting: 2.0),
+(postimpressionism: 1.0), (symbolism: 1.0), (surrealism: 1.0), (modernism: 1.0),
+(analytical cubism: 0.5), (synthetical cubism: 0.5),
+
+(abstract work: 0.5), (geometrical shapes: 0.5), (layers: 0.5),
+
+(Iberian art: 0.25), (African art: 0.25),
+(Paulo Cezanne art: 0.5),
+(Henri de Toulouse-Lautrec art: 0.5),
+(Georges Braque art: 0.5)",
+ARTIST: Rembrandt,"(Rembrandt painting: 2.0),
+(Baroque art: 0.25), (biblical art: 0.75),
+(Dutch Golden Age art: 0.5),
+
+(light effects: 0.5), (deep shadows: 0.25),
+
+(Caravaggio art: 0.5),
+(Carel Fabritius art: 0.5),
+(Pieter de Hooch art: 0.5), 
+(Vincent van Gogh art: 0.25)",
+ARTIST: Vincent van Gogh,"(Vincent van Gogh painting: 2.0),
+(postimpressionism: 1.0), (neoimpressionism: 1.0), (pointilism: 0.75), (japonaiserie: 0.25),
+
+(oil on canvas: 1.5),
+(impasto: 0.25), (brushstokes of thickly laid-on paint: 1.0), (spiraling movements: 1.5),
+
+(Jean-Francois Millet art: 0.25)",
